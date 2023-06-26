@@ -66,10 +66,7 @@ function Header() {
         />
         <Navbar.Offcanvas id="offcanvasNavbar-expand" placement="start">
           <Offcanvas.Body>
-            <Nav
-              className={`${styles.navMenu} m-0 my-lg-0`}
-              navbarScroll
-            >
+            <Nav className={`${styles.navMenu} m-0 my-lg-0`} navbarScroll>
               <Nav.Link
                 as={Link}
                 to="#"
@@ -103,7 +100,8 @@ function Header() {
                     className={`${styles.userLink} ${styles.borderRight} me-4`}
                     onClick={handleNavigateUser}
                   >
-                    <img className={`${styles.userAvatar} me-2`}
+                    <img
+                      className={`${styles.userAvatar} me-2`}
                       src="https://i.pravatar.cc/300?u=abc123"
                       alt={user.taiKhoan}
                     />
