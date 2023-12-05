@@ -1,1 +1,2 @@
-Phần quản lý task của các thành viên được ghi trong file "Tasks management.pdf"
+Tài khoản: QuyenVanGia
+Mật khẩu: BC42Movies
