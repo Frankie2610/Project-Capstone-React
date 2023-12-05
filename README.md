@@ -1,4 +1,4 @@
-# Các tài khoản dùng để đăng nhập dưới quyền quản trị viên<br>
+Các tài khoản dùng để đăng nhập dưới quyền quản trị viên<br>
 <br>
 Tài khoản: QuyenVanGia<br>
 Mật khẩu: BC42Movies<br>
