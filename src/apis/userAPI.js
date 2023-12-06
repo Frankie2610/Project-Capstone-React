@@ -6,7 +6,7 @@ export const apiSignin = async (values) => {
 };
 
 export const apiSignup = async (values) => {
-  const payload = { ...values, maNhom: "GP06" };
+  const payload = { ...values, maNhom: "GP01" };
 
   const { data } = await axiosClient.post("/QuanLyNguoiDung/DangKy", payload);
   return data;
@@ -22,7 +22,7 @@ export const apiGetUserList = async () => {
     "QuanLyNguoiDung/LayDanhSachNguoiDung",
     {
       params: {
-        maNhom: "GP06",
+        maNhom: "GP01",
       },
     }
   );
@@ -45,7 +45,7 @@ export const apiUpdateUser = async (user) => {
 };
 
 export const apiCreateNewUser = async (values) => {
-  const payload = { ...values, maNhom: "GP06" };
+  const payload = { ...values, maNhom: "GP01" };
   const { data } = await axiosClient.post(
     "/QuanLyNguoiDung/ThemNguoiDung",
     payload

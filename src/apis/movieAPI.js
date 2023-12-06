@@ -3,7 +3,7 @@ import axiosClient from "./axiosClient";
 export const apiGetMovies = async () => {
   const { data } = await axiosClient.get("/QuanLyPhim/LayDanhSachPhim", {
     params: {
-      maNhom: "GP06",
+      maNhom: "GP01",
     },
   });
   return data;
@@ -28,7 +28,7 @@ export const apiCreateMovie = async (movie) => {
   for (let key in movie) {
     formData.append(key, movie[key]);
   }
-  formData.append("maNhom", "GP06");
+  formData.append("maNhom", "GP01");
 
   const data = await axiosClient.post(
     "/QuanLyPhim/ThemPhimUploadHinh",
@@ -42,7 +42,7 @@ export const apiGetMovieList = async (tenPhim, currentPage) => {
     `/QuanLyPhim/LayDanhSachPhimPhanTrang`,
     {
       params: {
-        maNhom: "GP06",
+        maNhom: "GP01",
         tenPhim: tenPhim || undefined,
         soTrang: currentPage,
         soPhanTuTrenTrang: 4,

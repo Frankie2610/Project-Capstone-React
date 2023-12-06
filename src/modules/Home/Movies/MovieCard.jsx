@@ -31,7 +31,7 @@ function MovieCard({ item }) {
             type="button"
             onClick={handleShow}
           >
-            <img src="https://www.linkpicture.com/q/playButton.png" />
+            <img src="/img/playicon.png" />
           </button>
         </div>
         <Card.Body>
