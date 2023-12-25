@@ -1,0 +1,45 @@
+.slick-dots {
+  position: absolute;
+  bottom: 5% !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li button::before {
+  font-size: 20px !important;
+  color: #afafaf !important;
+  opacity: 0.8 !important;
+  transition: all 0.3s !important;
+}
+.slick-dots li button:hover::before {
+  color: white !important;
+}
+.slick-dots li.slick-active button::before {
+  color: rgb(0, 175, 64) !important;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 2;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 55px !important;
+  line-height: 0 !important;
+  transition: all 0.3s !important;
+}
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  color: rgb(0, 175, 64) !important;
+}
+
+.slick-prev {
+  left: 20px !important;
+}
+
+.slick-next {
+  right: 55px !important;
+}/*# sourceMappingURL=slickCustom.css.map */

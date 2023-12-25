@@ -23,71 +23,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-sm-12 d-md-none mt-5">
-              <div className="row">
-                <div className="col-sm-12 col-6">
-                  <h6 className={styles.subTitle}>MOBILE APP</h6>
-                  <div className="row mt-3 mb-3">
-                    <div className="col-6">
-                      <a
-                        target="_blank"
-                        href="https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src="https://www.linkpicture.com/q/apple_12.png"
-                          className={styles.logoStyle}
-                          alt="appleLogo"
-                        />
-                      </a>
-                    </div>
-                    <div className="col-6">
-                      <a
-                        target="_blank"
-                        href="https://play.google.com/store/apps/details?id=vn.com.vng.phim123"
-                        rel="noreferrer"
-                      >
-                        <img
-                          alt="androidLogo"
-                          src="https://www.linkpicture.com/q/android_1.png"
-                          className={styles.logoStyle}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-12 col-6">
-                  <h6 className={styles.subTitle}>SOCIAL</h6>
-                  <div className="row mt-3">
-                    <div className="col-6">
-                      <a
-                        target="_blank"
-                        href="https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197"
-                        rel="noreferrer"
-                      >
-                        <img
-                          alt="facebookLogo"
-                          src="https://www.linkpicture.com/q/facebook_8.png"
-                          className={styles.logoStyle}
-                        />
-                      </a>
-                    </div>
-                    <div className="col-6">
-                      <a
-                        target="_blank"
-                        href="https://play.google.com/store/apps/details?id=vn.com.vng.phim123"
-                        rel="noreferrer"
-                      >
-                        <img
-                          className={styles.logoStyle}
-                          alt="zaloLogo"
-                          src="https://www.linkpicture.com/q/zalo.png"
-                          width={30}
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div className="row"></div>
             </div>
           </div>
           <div className="col-md-4 col-sm-6 mt-5">
@@ -101,7 +37,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/cgv_1.png"
+                    src="/img/CGV.png"
                     className={styles.logoStyle}
                     alt="cgvlogo"
                   />
@@ -115,7 +51,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/bhd_1.png"
+                    src="/img/BHD.png"
                     className={styles.logoStyle}
                     alt="bhdlogo"
                   />
@@ -129,7 +65,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/galaxy_1.png"
+                    src="img/Galaxy.png"
                     className={styles.logoStyle}
                     alt="galaxylogo"
                   />
@@ -143,7 +79,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/star_14.png"
+                    src="img/CineStar.png"
                     className={styles.logoStyle}
                     alt="starlogo"
                   />
@@ -157,7 +93,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/lotte_1.png"
+                    src="https://tcdtist-tix-clone.vercel.app/static/media/footer-icon-5.08167da6.png"
                     className={styles.logoStyle}
                     alt="lottelogo"
                   />
@@ -171,7 +107,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/megaGs_1.png"
+                    src="img/megaGS.png"
                     className={styles.logoStyle}
                     alt="megalogo"
                   />
@@ -185,7 +121,7 @@ function Footer() {
                 >
                   <img
                     className={styles.logoStyle}
-                    src="https://www.linkpicture.com/q/beta_1.jpeg"
+                    src="img/Beta.jpeg"
                     alt="betalogo"
                   />
                 </a>
@@ -193,7 +129,7 @@ function Footer() {
               <div className="col-3 mb-3">
                 <a target="_blank" href="http://ddcinema.vn/" rel="noreferrer">
                   <img
-                    src="https://www.linkpicture.com/q/ddc_4.png"
+                    src="img/DDC.png"
                     className={styles.logoStyle}
                     alt="ddclogo"
                   />
@@ -206,7 +142,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/touch.png"
+                    src="img/Touch.png"
                     className={styles.logoStyle}
                     alt="touchlogo"
                   />
@@ -219,7 +155,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/cinemaX_1.jpeg"
+                    src="img/CinemaX.jpeg"
                     className={styles.logoStyle}
                     alt="cinemaxlogo"
                   />
@@ -232,7 +168,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/starLight_1.png"
+                    src="img/StarLight.png"
                     className={styles.logoStyle}
                     alt="starlightlogo"
                   />
@@ -245,7 +181,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/dcine_1.png"
+                    src="https://tcdtist-tix-clone.vercel.app/static/media/icon-footer-12.6b4821d0.png"
                     className={styles.logoStyle}
                     alt="dcinelogo"
                   />
@@ -254,7 +190,7 @@ function Footer() {
               <div className="col-3 mb-3">
                 <a target="_blank" href="https://zalopay.vn/" rel="noreferrer">
                   <img
-                    src="https://www.linkpicture.com/q/zaloPay.png"
+                    src="img/ZaloPay.png"
                     className={styles.logoStyle}
                     alt="zalologo"
                   />
@@ -267,7 +203,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/payoo_1.png"
+                    src="img/payoo.png"
                     className={styles.logoStyle}
                     alt="payoologo"
                   />
@@ -280,7 +216,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/vietcombank_1.png"
+                    src="img/vietcombank.png"
                     className={styles.logoStyle}
                     alt="vietcombanklogo"
                   />
@@ -289,11 +225,11 @@ function Footer() {
               <div className="col-3 mb-3">
                 <a
                   target="_blank"
-                  href="https://www.payoo.vn/"
+                  href="https://www.agribank.com.vn/"
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/agribank_1.png"
+                    src="img/Agribank.png"
                     className={styles.logoStyle}
                     alt="agribanklogo"
                   />
@@ -306,9 +242,9 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/vietinbank_1.png"
+                    src="img/Vietinbank.png"
                     className={styles.logoStyle}
-                    alt="viettinbanklogo"
+                    alt="Viettinbanklogo"
                   />
                 </a>
               </div>
@@ -319,7 +255,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/ivb_1.png"
+                    src="img/StarLight.png"
                     className={styles.logoStyle}
                     alt="ivblogo"
                   />
@@ -332,7 +268,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://www.linkpicture.com/q/bacham_1.png"
+                    src="img/bachamlogo.png"
                     className={styles.logoStyle}
                     alt="bachamlogo"
                   />
@@ -341,7 +277,7 @@ function Footer() {
               <div className="col-3 mb-3">
                 <a target="_blank" href="https://laban.vn/" rel="noreferrer">
                   <img
-                    src="https://www.linkpicture.com/q/laban_1.jpeg"
+                    src="img/labanlogo.jpeg"
                     className={styles.logoStyle}
                     alt="labanlogo"
                   />
@@ -362,7 +298,7 @@ function Footer() {
                       rel="noreferrer"
                     >
                       <img
-                        src="https://www.linkpicture.com/q/apple_12.png"
+                        src="/img/appeLogo.png"
                         className={styles.logoStyle}
                         alt="appleLogo"
                       />
@@ -376,7 +312,7 @@ function Footer() {
                     >
                       <img
                         alt="androidLogo"
-                        src="https://www.linkpicture.com/q/android_1.png"
+                        src="/img/androidLogo.png"
                         className={styles.logoStyle}
                       />
                     </a>
@@ -394,7 +330,7 @@ function Footer() {
                     >
                       <img
                         alt="facebookLogo"
-                        src="https://www.linkpicture.com/q/facebook_8.png"
+                        src="/img/facebookLogo.png"
                         className={styles.logoStyle}
                       />
                     </a>
@@ -408,7 +344,7 @@ function Footer() {
                       <img
                         className={styles.logoStyle}
                         alt="zaloLogo"
-                        src="https://www.linkpicture.com/q/zalo.png"
+                        src="/img/zaloLogo.png"
                         width={30}
                       />
                     </a>
@@ -424,7 +360,7 @@ function Footer() {
             <img
               className={`${styles.daThongBao} mb-3`}
               alt="zizonLogo"
-              src="https://www.linkpicture.com/q/zion.jpeg"
+              src="/img/Zion.jpeg"
               width={100}
             />
           </div>
@@ -451,7 +387,7 @@ function Footer() {
             <img
               className={styles.daThongBao}
               alt="daThongBaoLogo"
-              src="https://www.linkpicture.com/q/daThongBao.png"
+              src="/img/daThongBao.png"
               width={100}
             />
           </div>
