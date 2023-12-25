@@ -203,7 +203,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="img/payoo.png"
+                    src="img/Payoo.png"
                     className={styles.logoStyle}
                     alt="payoologo"
                   />
@@ -216,7 +216,7 @@ function Footer() {
                   rel="noreferrer"
                 >
                   <img
-                    src="img/vietcombank.png"
+                    src="img/Vietcombank.png"
                     className={styles.logoStyle}
                     alt="vietcombanklogo"
                   />
