@@ -1,4 +1,4 @@
-Các tài khoản dùng để đăng nhập dưới quyền quản trị viên<br>
+Các tài khoản dùng để đăng nhập dưới quyền Quản trị viên<br>
 <br>
 Tài khoản: GiaQuyenVan<br>
 Mật khẩu: Buta13dien<br>
