@@ -16,10 +16,15 @@ import {
   alertSuccess,
   warningDeleteUser,
 } from "../../../apis/sweetAlert2";
+import Pagination from "react-paginate";
+import "./Pagination.scss";
 
 function UserManagement() {
   //state quản lý input search
   const [values, setValues] = useState(null);
+
+  // state theo dõi phân trang
+  const [currentPage, setCurrentPage] = useState(1);
 
   // hàm cập nhật state cho input search
   const handleChange = (evt) => {
@@ -34,6 +39,11 @@ function UserManagement() {
   const [show, setShow] = useState(false);
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState(null);
+
+  // Tính toán chỉ số đầu và cuối của users trên trang hiện tại
+  const indexOfLastUser = currentPage * 10;
+  const indexOfFirstUser = indexOfLastUser - 10;
+  const currentUsers = users.slice(indexOfFirstUser, indexOfLastUser);
 
   //Regex số điện thoại có 10-11 chữ số
   const PHONENUMBER = /^(0|84)+([1-9]{1})+([0-9]{8})\b/;
@@ -197,9 +207,13 @@ function UserManagement() {
     }
   };
 
+  const handlePageChange = (data) => {
+    setCurrentPage(data.selected + 1); // Cập nhật trang hiện tại với setPage
+  };
+
   useEffect(() => {
     getUserList();
-  }, []);
+  }, [currentPage]);
 
   return (
     <div>
@@ -244,7 +258,7 @@ function UserManagement() {
           </tr>
         </thead>
         <tbody>
-          {users.map((user, index) => {
+          {currentUsers.map((user, index) => {
             return (
               <tr key={index}>
                 <td>{index + 1}</td>
@@ -274,6 +288,15 @@ function UserManagement() {
           })}
         </tbody>
       </table>
+      <Pagination
+        className="react-pagination mt-3"
+        previousLabel="<"
+        nextLabel=">"
+        pageCount={5} // Số trang hiển thị
+        pageRangeDisplayed={3} // Số trang hiển thị trong phân trang
+        marginPagesDisplayed={2} // Số lượng trang được hiển thị ở hai bên mỗi phần phân trang
+        onPageChange={handlePageChange}
+      />
       <Modal user={user} show={show} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
           <Modal.Title>
