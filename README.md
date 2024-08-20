@@ -1,15 +1,15 @@
-Các tài khoản dùng để đăng nhập dưới quyền Quản trị viên<br>
+All accounts regarded as admin<br>
 <br>
-Tài khoản: GiaQuyenVan<br>
-Mật khẩu: Buta13dien<br>
+Account: GiaQuyenVan<br>
+Password: Buta13dien<br>
 <br>
-Tài khoản: FrankieVan2610<br>
-Mật khẩu: Buta13dien<br>
+Account: FrankieVan2610<br>
+Password: Buta13dien<br>
 
-Các tài khoản dùng để đăng nhập dưới quyền Khách hàng<br>
+All accounts regarded as client<br>
 <br>
-Tài khoản: QuyenVanGia<br>
-Mật khẩu: BC42Movies<br>
+Account: QuyenVanGia<br>
+Password: BC42Movies<br>
 <br>
-Tài khoản: Frankie2610<br>
-Mật khẩu: Buta13dien<br>
+Account: Frankie2610<br>
+Password: Buta13dien<br>
