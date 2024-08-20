@@ -34,10 +34,7 @@ function MovieTrailer({ movie, cinema }) {
           type="button"
           onClick={handleShow}
         >
-          <img
-            src="https://www.linkpicture.com/q/playButton.png"
-            alt="playButton"
-          />
+          <img src="/img/playicon.png" alt="playButton" />
         </button>
       </div>
       <Modal show={show} onHide={handleClose}>
