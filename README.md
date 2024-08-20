@@ -1,4 +1,4 @@
-All accounts regarded as admin<br>
+**All accounts regarded as admin**<br>
 <br>
 Account: GiaQuyenVan<br>
 Password: Buta13dien<br>
@@ -6,7 +6,7 @@ Password: Buta13dien<br>
 Account: FrankieVan2610<br>
 Password: Buta13dien<br>
 
-All accounts regarded as client<br>
+**All accounts regarded as client**<br>
 <br>
 Account: QuyenVanGia<br>
 Password: BC42Movies<br>
