@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div id="contact" className={styles.bgStyle}>
       <div className={`${styles.bgContainer} ${styles.defaultFontStyle}`}>
-        <div className="row">
+        <div className="row text-center">
           <div className="col-md-4 col-sm-6 mt-5">
             <h6 className={styles.subTitle}>TIX</h6>
             <div className="row mt-3">

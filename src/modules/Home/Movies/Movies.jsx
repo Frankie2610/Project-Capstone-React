@@ -92,8 +92,61 @@ function Movies() {
             </div>
           </div>
         </Slider>
+      ) : size.width >= 576 ? (
+        <Slider className="pb-5" style={{ paddingTop: "150px" }} {...settings}>
+          <div>
+            <div className={styles.sliderContainer}>
+              <div className="row mb-5">
+                {movies.slice(0, 6).map((item, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="col-6 col-sm-4 col-md-4 col-lg-3 mt-3"
+                    >
+                      <MovieCard item={item} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.sliderContainer}>
+              <div className="row mb-5">
+                {movies.slice(6, 12).map((item, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="col-6 col-sm-4 col-md-4 col-lg-3 mt-3"
+                    >
+                      <MovieCard item={item} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.sliderContainer}>
+              <div className="row mb-5">
+                {movies.slice(12, 18).map((item, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="col-6 col-sm-4 col-md-4 col-lg-3 mt-3"
+                    >
+                      <MovieCard item={item} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </Slider>
       ) : (
-        <Slider className="pb-5" style={{ paddingTop: "200px" }} {...settings}>
+        <Slider className="pb-5" style={{ paddingTop: "100px" }} {...settings}>
           <div>
             <div className={styles.sliderContainer}>
               <div className="row mb-5">
